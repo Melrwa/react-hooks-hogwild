@@ -1,39 +1,65 @@
 
-.add-hog-form {
-    width: 300px;
-    padding: 20px;
-    background-color: #ffcccb; 
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    position: fixed; 
-    left: 20px; 
-    top: 50px; 
+     .add-hog-form {
+        width: 50%;              
+        max-width: 600px;         
+        padding: 20px;
+        background-color: #ffcccb;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        margin: 20px auto;        
+        position: relative;       
+        top: 20px;              
     }
+    
     .add-hog-form h3 {
-    text-align: center;
-    color: #d5006d; 
+        text-align: center;
+        color: #d5006d;
     }
+    
     .add-hog-form label {
-    display: block; 
-    margin-bottom: 10px;
+        display: block;
+        margin-bottom: 5px;
+        color: #d5006d;
+        font-weight: bold;
     }
+    
     .add-hog-form input {
-    width: 100%; 
-    padding: 10px;
-    border: 1px solid #d5006d; 
-    border-radius: 5px;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #d5006d;
+        border-radius: 5px;
+        margin-bottom: 10px;
     }
+    
     .add-hog-form button {
-    width: 100%; 
-    padding: 10px;
-    background-color: #d5006d; 
-    color: white; 
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
+        width: 100%;
+        padding: 10px;
+        background-color: #d5006d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
     }
+    
     .add-hog-form button:hover {
-    background-color: #a0004e; 
+        background-color: #a0004e;
+    }
+    
+   
+    .add-hog-form .form-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .add-hog-form .form-group {
+        flex: 1 1 45%; /* Takes up about 45% width per item, allowing two items per row */
+    }
+    
+    @media (max-width: 600px) {
+        .add-hog-form .form-group {
+            flex: 1 1 100%; /* Stacks items in a single column on smaller screens */
+        }
     }
     
