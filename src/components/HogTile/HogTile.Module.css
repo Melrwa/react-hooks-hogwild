@@ -1,0 +1,41 @@
+.tile-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    }
+    .tile {
+    background-color: #ffc0cb; 
+    border: 2px solid #ff69b4; 
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .tile h2 {
+    color: #d63384; 
+    margin-bottom: 10px;
+    }
+    .tile img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    }
+    .tile h4, .tile em, .tile strong {
+    display: block;
+    margin: 5px 0;
+    }
+    .tile em, .tile strong {
+    color: #c71585; 
+    }
+    .tile-container {
+    cursor: pointer; 
+    transition: transform 0.2s; 
+    }
+    .tile-container:hover {
+    transform: scale(1.02);
+    }
+    .hog-details {
+    margin-top: 10px; 
+    }
+    

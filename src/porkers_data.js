@@ -1,5 +1,6 @@
 const hogs = [
   {
+    id:1,
     name: "Babe",
     specialty: "Being incredibly cute",
     greased: false,
@@ -7,8 +8,10 @@ const hogs = [
     "highest medal achieved": "bronze",
     image:
       "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/babe.jpg",
+    isHidden: false,
   },
   {
+    id:2,
     name: "Porkchop",
     specialty: "Making friends",
     greased: true,
@@ -16,8 +19,10 @@ const hogs = [
     "highest medal achieved": "silver",
     image:
       "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/porkchop.jpg",
+     isHidden: false,
   },
   {
+   id:3,
     name: "Cherub",
     specialty: "Flying",
     greased: false,
@@ -25,8 +30,10 @@ const hogs = [
     "highest medal achieved": "gold",
     image:
       "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/cherub.jpg",
+    isHidden: false,
   },
   {
+    id:4,
     name: "Piggy smalls",
     specialty: "Rapping",
     greased: true,
@@ -34,8 +41,10 @@ const hogs = [
     "highest medal achieved": "platinum",
     image:
       "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/piggy_smalls.jpg",
+    isHidden: false,
   },
   {
+    id:5,   
     name: "Trouble",
     specialty: "Racing",
     greased: true,
@@ -43,8 +52,10 @@ const hogs = [
     "highest medal achieved": "gold",
     image:
       "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/trouble.jpg",
+    isHidden: false,
   },
   {
+    id:6,
     name: "Piglet",
     specialty: "Bravery and friendship",
     greased: false,
@@ -52,8 +63,10 @@ const hogs = [
     "highest medal achieved": "silver",
     image:
       "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/piglet.jpg",
+    isHidden: false,
   },
   {
+    id:7,
     name: "Peppa",
     specialty: "Being adventurous",
     greased: false,
@@ -61,8 +74,10 @@ const hogs = [
     "highest medal achieved": "wood",
     image:
       "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/peppa.jpg",
+    isHidden: false,
   },
   {
+    id:8,
     name: "Truffle Shuffle",
     specialty: "Peeling oranges",
     greased: true,
@@ -70,8 +85,10 @@ const hogs = [
     "highest medal achieved": "gold",
     image:
       "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/truffle_shuffle.jpg",
+    isHidden: false,
   },
   {
+    id:9,
     name: "Bailey",
     specialty: "Finding truffles",
     greased: false,
@@ -79,24 +96,28 @@ const hogs = [
     "highest medal achieved": "bronze",
     image:
       "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/bailey.jpg",
+    isHidden: false,
   },
   {
+    id:10,
     name: "Galaxy Note",
     specialty: "Cuddling",
-    greased: true,
+    greased: false,
     weight: 1.9,
     "highest medal achieved": "diamond",
     image:
       "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/galaxy_note.jpg",
   },
   {
+    id:11,
     name: "Leggo My Eggo",
     specialty: "Babysitting",
-    greased: true,
+    greased: false,
     weight: 3.3,
     "highest medal achieved": "platinum",
     image:
       "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/leggo_my_eggo.jpg",
+    isHidden: false,
   },
 ];
 

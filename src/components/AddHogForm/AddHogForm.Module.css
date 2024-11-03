@@ -1,0 +1,39 @@
+
+.add-hog-form {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffcccb; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: fixed; 
+    left: 20px; 
+    top: 50px; 
+    }
+    .add-hog-form h3 {
+    text-align: center;
+    color: #d5006d; 
+    }
+    .add-hog-form label {
+    display: block; 
+    margin-bottom: 10px;
+    }
+    .add-hog-form input {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #d5006d; 
+    border-radius: 5px;
+    }
+    .add-hog-form button {
+    width: 100%; 
+    padding: 10px;
+    background-color: #d5006d; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    }
+    .add-hog-form button:hover {
+    background-color: #a0004e; 
+    }
+    

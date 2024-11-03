@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: rgb(116, 3, 40);
 }
 
 .App {
@@ -27,7 +28,7 @@ body {
 }
 
 .headerText {
-  color: #F5A9BC;
+  color: #e21448;
   font-size: 3em;
   margin: 0% 2% 0% 2%;
 }
@@ -35,18 +36,19 @@ body {
 .largeHeader {
   font-size: 3.5em;
   font-weight: bold;
-  color: #3B0B0B;
+  color: #c00f0f;
 }
 
 .smallHeader {
   font-size: 1.75em;
   font-weight: bold;
-  color: #3B0B0B;
+  color: #b77474;
 }
 
 .normalText {
   font-family: Georgia, serif;
   font-size: .75em;
+  color: #f90743;
 }
 
 .hoggyText {
@@ -149,4 +151,13 @@ ul {
   to {
     transform: rotate(360deg);
   }
+}
+.App.light {
+  background-color: rgb(116, 3, 40);
+  color: black;
+}
+
+.App.dark {
+  background-color: rgb(0, 0, 0);
+  color: black;
 }
