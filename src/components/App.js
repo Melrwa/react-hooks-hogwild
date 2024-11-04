@@ -38,8 +38,8 @@ function App() {
     <div className={appClass}>
     <button
   style={{
-    backgroundColor: isDark ? "#333" : "#ddd", 
-    color: isDark ? "#fff" : "#000",           
+    backgroundColor: isDark ?  "#ddd " : " #333", 
+    color: isDark ? "#000" : "#fff",           
     padding: "8px 16px",                      
     border: "none",                            
     borderRadius: "5px",                       

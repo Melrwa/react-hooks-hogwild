@@ -11,8 +11,8 @@ setIsExpanded(prevState => !prevState);
 return (
 <div className="tile-container" onClick={handleTileClick}> 
 <div className="tile">
-<h2>{name}</h2>
 <img src={image} alt={`${name} the hog`} />
+<h2>{name}</h2>
 <button style={{ backgroundColor: "#ff4d4d", color: "#fff",padding: "8px 12px", border: "none", borderRadius: "5px", cursor: "pointer"}} onClick={(e) => { e.stopPropagation(); onToggleHideHog(name);}}>
 Hide Hog
 </button>
